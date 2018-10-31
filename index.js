@@ -2,7 +2,7 @@ module.exports = babel => {
   const { types: t } = babel;
 
   return {
-    name: "numeric-keys-array-destructure",
+    name: "optimize-hook-destructuring",
     visitor: {
       VariableDeclarator(path) {
         if (t.isArrayPattern(path.node.id) && t.isCallExpression(path.node.init) && path.node.init.callee.name.match(/^use[A-Z]/)) {

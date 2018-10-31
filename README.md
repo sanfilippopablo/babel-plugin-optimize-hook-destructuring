@@ -1,4 +1,4 @@
-# babel-plugin-numeric-keys-array-destructure
+# babel-plugin-optimize-hook-destructuring
 
 Babel plugin for transforming this `const [value, setValue] = useState(null)` to this `const {0: value, 1: setValue} = useState(null);`.
 

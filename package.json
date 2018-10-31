@@ -1,9 +1,9 @@
 {
-  "name": "babel-plugin-numeric-keys-array-destructure",
+  "name": "babel-plugin-optimize-hook-destructuring",
   "version": "1.1.1",
   "description": "Babel plugin for transforming this `const [value, setValue] = useState(null)` to this `const {0: value, 1: setValue} = useState(null);`.",
   "main": "index.js",
-  "repository": "https://github.com/sanfilippopablo/babel-plugin-numeric-keys-array-destructure.git",
+  "repository": "https://github.com/sanfilippopablo/babel-plugin-optimize-hook-destructuring.git",
   "author": "Pablo Sanfilippo <sanfilippopablo@gmail.com>",
   "license": "GNUv3",
   "private": false,
