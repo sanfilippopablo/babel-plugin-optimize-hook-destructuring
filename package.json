@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-numeric-keys-array-destructure",
   "version": "1.1.0",
-  "description": "Babel plugin for transforming this `const [a, b, {c}] = something` to this `const {0: a, 1: b, 2: {c}} = something`.",
+  "description": "Babel plugin for transforming this `const [value, setValue] = useState(null)` to this `const {0: value, 1: setValue} = useState(null);`.",
   "main": "index.js",
   "repository": "https://github.com/sanfilippopablo/babel-plugin-numeric-keys-array-destructure.git",
   "author": "Pablo Sanfilippo <sanfilippopablo@gmail.com>",
