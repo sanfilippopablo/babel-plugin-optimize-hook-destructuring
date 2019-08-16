@@ -10,8 +10,20 @@ pluginTester({
   },
   tests: [
     {
-      code: "const [a, b, {c}] = something;",
-      output: "const {0:a,1:b,2:{c}} = something;"
+      code: "const[count,setCount]=useState(0);",
+      output: "const{0:count,1:setCount}=useState(0);"
+    },
+    {
+      code: "const[a,b]=[0,1];",
+      output: "const[a,b]=[0,1];"
+    },
+    {
+      code: "const[c,d]=otherThings();",
+      output: "const[c,d]=otherThings();"
+    },
+    {
+      code: "const f=0;",
+      output: "const f=0;"
     }
   ]
 });
