@@ -63,7 +63,7 @@ module.exports = ({ types: t }, /** @type {Options} */ options = {}) => {
 			// this is a workaround to run before preset-env destroys destructured assignments
 			Program(path) {
 				path.traverse(visitor);
-			},
-		},
+			}
+		}
 	};
 };
