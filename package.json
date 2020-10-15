@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-optimize-hook-destructuring",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Babel plugin for transforming this `const [value, setValue] = useState(null)` to this `const {0: value, 1: setValue} = useState(null);`.",
   "main": "index.js",
   "repository": "https://github.com/sanfilippopablo/babel-plugin-optimize-hook-destructuring.git",
